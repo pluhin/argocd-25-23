@@ -13,7 +13,7 @@ spec:
     helm:
       parameters:
       - name: pvc.storage_size
-        value: 200Mi
+        value: 300Mi
     repoURL: https://pluhin.github.io/helm-25-23/
     targetRevision: 0.2.0
   syncPolicy:
