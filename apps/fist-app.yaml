@@ -17,5 +17,7 @@ spec:
     repoURL: https://pluhin.github.io/helm-25-23/
     targetRevision: 0.2.0
   syncPolicy:
+    automated:
+      prune: true
     syncOptions:
     - PruneLast=true
